@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV 简历 | Xinyu Zhang 张新宇</title>
+  <meta name="author" content="Xinyu Zhang">
+  <meta name="description" content="Curriculum Vitae of Xinyu Zhang (张新宇) — Financial Engineering, Nankai University.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="../">Xinyu Zhang</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="../">About 介绍</a></li>
+        <li class="active"><a href="./">CV 简历</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="container mt-5" role="main">
+  <header class="post-header">
+    <h1 class="post-title">Curriculum Vitae 简历</h1>
+    <p class="post-meta">Last updated: 2026-09</p>
+    <p><a class="btn-pdf" href="../assets/pdf/CV.pdf" download>
+      <i class="material-icons" style="font-size:1rem;vertical-align:-3px;">download</i> Download PDF 下载简历</a></p>
+  </header>
+
+  <article class="cv">
+
+    <h2>Contact 联系方式</h2>
+    <ul class="plain">
+      <li>Phone: <a href="tel:+8613634768093">(+86) 13634768093</a></li>
+      <li>Email: <a href="mailto:zxy190416@126.com">zxy190416@126.com</a></li>
+      <li>意向地点：北京</li>
+    </ul>
+
+    <h2>Education 教育背景</h2>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">南开大学</span>　<span class="cv-entry-sub">金融工程 · 学术硕士</span></div>
+        <span class="cv-year">2023.09 – 2026.06</span>
+      </div>
+      <ul class="plain">
+        <li>研究方向：机器学习、量化投资、资产定价</li>
+      </ul>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">山东大学</span>　<span class="cv-entry-sub">材料成型及控制工程 · 本科</span></div>
+        <span class="cv-year">2017.09 – 2021.06</span>
+      </div>
+      <ul class="plain">
+        <li>相关课程：计算方法、控制工程基础、高等数学、MATLAB、C 语言、有限元分析等</li>
+      </ul>
+    </div>
+
+    <h2>Internships 实习经历</h2>
+
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">京东科技</span>　<span class="cv-entry-sub">金融科技事业群 · 数据分析实习生</span></div>
+        <span class="cv-year">2025.05 – 2025.09</span>
+      </div>
+      <ul class="plain">
+        <li><strong>大规模分布式特征工程与表征学习：</strong>基于 Spark SQL 和 PySpark 构建高性能数据处理 Pipeline，针对千万级信贷 ODM 数据进行特征挖掘与降维。设计并实现 50+ 维核心风控特征（包含长短周期逾期率、时序回款特征、核销倾向性等），通过特征重要性过滤与相关性分析，显著提升了模型输入信号的信噪比。</li>
+        <li><strong>信贷风险预测模型开发与调优：</strong>针对资产端应收/应付风险场景，负责构建端到端的违约预测模型（基于 XGBoost/LightGBM）。引入时间窗口滚动统计逻辑捕捉行为动力学特征，并利用交叉验证与贝叶斯优化进行超参调优。模型在测试集的 KS 值提升了 5%，有效识别了短期违约风险。</li>
+        <li><strong>模型可解释性与策略量化归因：</strong>引入 SHAP 与 LIME 归因框架解析非线性黑盒模型，揭示特征间的交互效应。通过全局重要性排序与局部样本路径分析，量化了历史回款波动对风险评级的边际贡献，为授信准入策略提供了算法层面的逻辑背书，辅助策略迭代。</li>
+        <li><strong>算法监控体系与自动化工程落地：</strong>设计并实现风险预警指标体系，构建从原始数据到模型评分的 T+1 自动化流水线。通过监控模型 PSI（稳定度）及核心特征分布偏移，建立了数据驱动的预警机制，使资产质量异常的响应速度提升了 10%。</li>
+      </ul>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">安联保险资管</span>　<span class="cv-entry-sub">风险管理部 · 风控策略实习生</span></div>
+        <span class="cv-year">2025.03 – 2025.05</span>
+      </div>
+      <ul class="plain">
+        <li><strong>动态风险建模与波动率估计：</strong>负责保险资金组合的市场风险监控框架建设。基于 Python 开发高频 VaR（风险价值）计算模块，引入 GARCH 模型对资产波动率进行非对称建模，并利用 Monte Carlo 模拟评估多资产组合在极端行情下的预期损失。</li>
+        <li><strong>异常检测与动态预警系统：</strong>设计并实现风险监控指标体系，包含风险集中度、最大回撤（MDD）及流动性缺口等。采用动态阈值算法取代静态限制，通过对历史数据的分布拟合，对突破置信区间的指标进行自动化预警，显著提升了风险响应的灵敏度。</li>
+      </ul>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">斯伦贝谢</span>　<span class="cv-entry-sub">全球最大的油服 · 数智化一体化机器学习工程师实习生</span></div>
+        <span class="cv-year">2024.09 – 2025.01</span>
+      </div>
+      <ul class="plain">
+        <li><strong>数据治理与特征工程：</strong>针对地质传感器产生的极值干扰，设计并实现了基于 3σ 准则与箱线图（Boxplot）的联合异常值检测管线，对伽马射线强度、地质压力等核心指标进行清洗。</li>
+        <li><strong>高维缺失值建模：</strong>引入 KNN（K-Nearest Neighbors）缺失值插补算法，有效弥补了 5% 以上的传感器数据缺失，相比传统均值填充，更好地保留了地质特征的局部流形结构。</li>
+        <li><strong>异质集成模型构建：</strong>设计并训练了 XGBoost 与随机森林（Random Forest）的集成学习架构，利用 Boosting 的高拟合能力与 Bagging 的抗过拟合特性，显著提升了模型在复杂地层场景下的泛化性能。</li>
+        <li><strong>超参数自动化搜索：</strong>利用 Optuna 贝叶斯优化框架结合 GridSearchCV，对学习率、树深、正则化系数等关键超参进行协同搜索，相比手动调优效率提升了 3 倍，使模型 AUC 稳定在 0.92。</li>
+        <li><strong>全局可解释性分析（SHAP）：</strong>基于博弈论视角引入 SHAP 对模型进行归因分析，量化 8 个核心特征（如岩石密度、地质压力）的边际贡献度，为石油目标定位提供了科学的物理依据。</li>
+        <li><strong>算法迭代与交付：</strong>独立输出 PR-ROC 曲线、特征重要性热力图等量化评估报告，推动了模型在实际石油探测业务中的算法选型与持续迭代。</li>
+      </ul>
+    </div>
+
+    <h2>Research &amp; Projects 科研与项目经历</h2>
+
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">字节跳动 - 南开大学金融 AI 数据构建与模型评估项目</span></div>
+        <span class="cv-year">2025.02 – 2025.04</span>
+      </div>
+      <ul class="plain">
+        <li><strong>金融数据生产与标注：</strong>参与金融事件抽取（EEM）数据标注与校验，处理大量公司公告/财经新闻，精准识别事件类型、主体及关联要素。</li>
+        <li><strong>模型高阶能力定制与评测：</strong>设计金融推理链（CoT）模板生成事件驱动的逻辑链数据，并创建图文结合问答对（基于 K 线图等金融图表），针对性提升模型的可解释推理与多模态金融理解能力，深度分析错误根因。</li>
+        <li><strong>数据驱动闭环优化：</strong>基于评测结果提出并推动落地数据增强方案与模型改进建议，提升模型在金融场景的核心性能。</li>
+      </ul>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">基于计量经济学与深度学习融合的高频波动率预测研究</span>
+          <span class="badge-tag">EI 会议论文</span></div>
+        <span class="cv-year">2025.01 – 2025.03</span>
+      </div>
+      <ul class="plain">
+        <li><strong>高频数据清洗与特征工程：</strong>构建高性能数据处理管道，对上证综指、沪深 300 等 5 大指数的 5 分钟高频数据进行时间戳对齐与微观结构噪声清洗。基于已实现波动率理论，构建包含日内 RV、高阶矩（偏度/峰度）等多维波动率特征，利用标准化处理消除非平稳性，为模型提供稳健输入。</li>
+        <li><strong>提出一种两阶段残差学习框架：</strong>首先利用传统的 RV-GARCH 模型捕捉波动率的线性聚集特征和长记忆性。针对 GARCH 模型对“肥尾”效应捕捉不足的问题，第二阶段引入 XGBoost 与 GRU 对 GARCH 的预测残差进行建模。利用 GRU 的门控机制捕捉残差中的非线性时序依赖，利用 XGBoost 处理特征交互。通过贝叶斯优化自动搜索超参数，最终将波动率预测的年化误差率（MAPE）降低至 4.8%，显著优于单一模型。</li>
+        <li><strong>可解释性分析与鲁棒性评估：</strong>设计滚动时间窗回测机制，评估模型在不同市场周期下的泛化能力。实验表明，GRU 模块在长序列依赖捕捉上表现最优，而随机森林（RF）在处理波动率突变（样本不平衡）时 F1 分数最高。引入 SHAP 归因分析，量化特征重要性，发现“隔夜收益率”与“市场流动性因子”对残差预测的贡献度超过 40%，为交易策略的夜盘风控提供了量化依据。</li>
+      </ul>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-entry-head">
+        <div><span class="cv-entry-title">基于深度视觉模型的量化择时策略研究</span>
+          <span class="badge-tag">在投论文</span></div>
+        <span class="cv-year">2024.05 – 2025.01</span>
+      </div>
+      <ul class="plain">
+        <li><strong>跨模态表征工程：</strong>利用时空特征堆叠技术将 10 年 OHLC 及技术指标（RSI/MACD）编码为高维多通道张量，实现时序信号向视觉语义的映射，捕捉传统模型难以识别的非线性形态特征。</li>
+        <li><strong>CNN-Transformer 混合架构：</strong>设计并实现一种异构融合网络，利用 CNN 提取局部形态特征，通过 Transformer 自注意力机制建模长周期全局关联与市场风格切换，解决长序列依赖下的信息瓶颈问题。</li>
+        <li><strong>模型验证与鲁棒性优化：</strong>对比 ResNet 基准，模型 AUC 与命中率提升 10%。通过正则化与数据增强策略显著抑制了深度模型在金融小样本上的过拟合，增强了在极端波动行情下的泛化能力。</li>
+        <li><strong>分层策略回测与归因：</strong>基于预测置信度构建全市场多空分层模型（2001–2023）。Top 组年化收益 23.6%（Sharpe 1.8），市场中性多空组合年化达 45.6%，通过 Rank IC 分析验证了视觉 Alpha 因子的超额收益贡献。</li>
+      </ul>
+    </div>
+
+    <h2>Skills 技能特长</h2>
+    <ul class="plain">
+      <li><strong>技术栈：</strong>Python、Stata、SQL、PyTorch、C、C++</li>
+      <li><strong>算法：</strong>XGBoost、LightGBM、Transformer、CNN、GARCH 等</li>
+      <li><strong>语言：</strong>英语（CET-6）、（CET-4）</li>
+    </ul>
+
+  </article>
+</div>
+
+<footer class="fixed-bottom">
+  <div class="container">
+    © Copyright 2026 Xinyu Zhang. Powered by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+  </div>
+</footer>
+
+<script>
+  document.getElementById("navToggle").addEventListener("click", function () {
+    document.getElementById("navMenu").classList.toggle("open");
+  });
+</script>
+</body>
+</html>

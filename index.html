@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xinyu Zhang 张新宇</title>
+  <meta name="author" content="Xinyu Zhang">
+  <meta name="description" content="Personal website of Xinyu Zhang (张新宇) — Financial Engineering, Nankai University. Machine learning, quantitative investing, asset pricing.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="./">Xinyu Zhang</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      <ul class="navbar-nav" id="navMenu">
+        <li class="active"><a href="./">About 介绍</a></li>
+        <li><a href="cv/">CV 简历</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="container mt-5" role="main">
+  <div class="post">
+
+    <header class="post-header">
+      <h1 class="post-title">Xinyu Zhang 张新宇</h1>
+      <p class="desc"></p>
+    </header>
+
+    <article>
+      <!-- 右侧头像(如需换更高清的照片,替换 assets/img/avatar.jpeg 即可) -->
+      <div class="profile float-right">
+        <figure>
+          <img src="assets/img/avatar.jpeg" alt="Xinyu Zhang 张新宇">
+        </figure>
+        <div class="more-info">
+          <p><i class="material-icons">mail</i><a href="mailto:zxy190416@126.com">zxy190416@126.com</a></p>
+          <p><i class="material-icons">call</i><a href="tel:+8613634768093">(+86) 136-3476-8093</a></p>
+          <p><i class="material-icons">place</i><span>Beijing, China</span></p>
+          <!-- 想加 Google Scholar / GitHub 就照抄改链接:
+          <p><i class="material-icons">school</i><a href="https://scholar.google.com/..." target="_blank">Google Scholar</a></p>
+          -->
+        </div>
+      </div>
+
+      <div class="clearfix">
+        <p>Hello! I’m Xinyu Zhang (张新宇), a master’s student in Financial Engineering at
+          Nankai University (expected June 2026). My research interests include
+          <strong>machine learning</strong>, <strong>quantitative investing</strong>, and
+          <strong>asset pricing</strong>. I have interned at JD Technology (data analyst),
+          Allianz Insurance Asset Management (risk management), and SLB/Schlumberger
+          (machine-learning engineer). I am looking for opportunities in Beijing.
+          You can reach me at <a href="mailto:zxy190416@126.com">zxy190416@126.com</a>.</p>
+
+        <p>Education:</p>
+        <ul>
+          <li>M.S. in Financial Engineering, Nankai University, 2023.09 – 2026.06 (expected).</li>
+          <li>B.Eng. in Materials Forming &amp; Control Engineering, Shandong University, 2017.09 – 2021.06.</li>
+        </ul>
+
+        <p>Curriculum vitae: <a href="assets/pdf/CV.pdf">CV 简历</a></p>
+
+        <p>你好！我是张新宇，南开大学金融工程专业学术型硕士研究生（预计 2026 年 6 月毕业），本科毕业于山东大学材料成型及控制工程专业。我的研究兴趣包括：<strong>机器学习</strong>、<strong>量化投资</strong>和<strong>资产定价</strong>。我先后在京东科技（数据分析实习生）、安联保险资管（风控策略实习生）与斯伦贝谢（机器学习工程师实习生）实习。意向工作地点为北京。我的邮箱是 <a href="mailto:zxy190416@126.com">zxy190416@126.com</a>。</p>
+
+        <!-- 想再写点什么(比如 News 动态),照下面的格式加:
+        <h4><u>News 动态</u></h4>
+        <p>2025.03 高频波动率预测论文被 EI 会议接收。</p>
+        -->
+      </div>
+    </article>
+
+  </div>
+</div>
+
+<footer class="fixed-bottom">
+  <div class="container">
+    © Copyright 2026 Xinyu Zhang. Powered by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+  </div>
+</footer>
+
+<script>
+  document.getElementById("navToggle").addEventListener("click", function () {
+    document.getElementById("navMenu").classList.toggle("open");
+  });
+</script>
+</body>
+</html>
